@@ -1,0 +1,25 @@
+.list-holder {
+  .todo-title {
+    display: inline;
+  }
+
+  .todo-not-found {
+    color: gray;
+    font-style: italic;
+  }
+
+  .todo-checked {
+    color: #e91e63;
+    font-style: italic;
+    text-decoration: line-through;
+    transition: 1s;
+  }
+
+  .todo-unchecked {
+    transition: 1s;
+  }
+
+  .todo-delete {
+    cursor: pointer;
+  }
+}
